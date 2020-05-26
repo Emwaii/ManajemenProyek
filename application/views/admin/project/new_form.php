@@ -111,7 +111,7 @@
 								</select>
 							</div>
 
-							<input class="btn btn-success" type="submit" name="btn" value="Save" />
+							<input class="btn btn-success" type="submit" name="btn" value="Save"/>
 						</form>
 
 					</div>
