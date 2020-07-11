@@ -5,12 +5,16 @@ class User_model extends CI_Model
     private $_table = "users";
 
     public $user_id;
+    public $username;
+    public $phone;
+    public $photo;
     public $full_name;
     public $password;
     public $email;
     public $role;
-    public $phone;
-    public $photo;
+    public $last_login;
+    public $create_at;
+    //public $is_active;
     // public $is_active;
 
     public function rules()
